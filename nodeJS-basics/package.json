@@ -1,18 +1,17 @@
 {
-  "name": "nodejs-basics",
-  "version": "1.0.0",
-  "description": "node js tutorial pacage",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "nodejs",
-    "js"
-  ],
-  "author": "albis <albis@gmail.com>",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^1.19.3"
-  }
+	"name": "nodejs-basics",
+	"version": "1.0.0",
+	"description": "node js tutorial pacage",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"keywords": ["nodejs", "js"],
+	"author": "albis <albis@gmail.com>",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^1.19.3"
+	}
 }
