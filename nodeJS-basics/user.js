@@ -10,6 +10,6 @@ const user2 = {
 module.exports = {
 	user: user,
 	seyHello() {
-		console.log('Hello!')
+		console.log('Hello')
 	}
 }
