@@ -17,6 +17,8 @@ app.set('view engine', 'hbs')
 app.set('views', 'views')
 
 app.use(express.static('public'))
+app.use(express.urlencoded({ extended: true }))
+
 app.use('/', homeRouts)
 app.use('/add', addRouts)
 app.use('/courses', courseRouts)
