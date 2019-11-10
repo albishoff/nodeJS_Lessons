@@ -33,7 +33,8 @@ async function start() {
 		const url = 'mongodb+srv://sergey:xE9RwuURNWh4MmkG@cluster0-kitpb.mongodb.net/shop'
 		await mongoose.connect(url, {
 			useNewUrlParser: true,
-			useUnifiedTopology: true
+			useUnifiedTopology: true,
+			useFindAndModify: false
 		})
 
 		app.listen(PORT, () => {
